@@ -6,17 +6,17 @@ The variable corresponds to holding data in programming languages.
 ### String and Integer
 ```swift
 // Variable Type is String
-var name = "Mehmet"
+var name = "Emre"
 // Variable Type is Integer
-var number = 13
-print(name) // Mehmet
-print(number) // 13
+var number = 15
+print(name) // Emre
+print(number) // 15
 // If you wanna change the value, you don't need "var" tag
-name = "Ateş"
-number = 5
+name = "Taşdemir"
+number = 9
 // Same variables but value was changed
-print(name) // Ateş
-print(number) // 5 
+print(name) // Taşdemir
+print(number) // 9 
 ```
 
 ### Multiline String, Double and Boolean
@@ -37,8 +37,8 @@ var learn = true
 ### String Interpolation
 ```swift
 // How to use variables in string. So String interpolation.
-var myScore = 99
-var scoreStr = "My score is : \(myScore)" // My score is : 99
+var myScore = 89
+var scoreStr = "My score is : \(myScore)" // My score is : 89
 ```
 
 ### Constants
@@ -51,12 +51,12 @@ tryChange = "I have tried" // You should see a warning that the constant is immu
 ### Type annotations
 ```swift
 // If you want to predetermine the variable type
-var number : Int = 13
-var name : String = "Mehmet" 
+var number : Int = 15
+var name : String = "Emre" 
 var myBoolean : Bool = true
 var myDouble : Double = 13.48
 // This avoids misuse of the variable
-number = "Ateş" // You can't do this. Because variable type is an integer.
+number = "Taşdemir" // You can't do this. Because variable type is an integer.
 number = 10 // But you can do this
 ```
 
@@ -80,7 +80,7 @@ for multiline string
 ### Constants
 
 ```swift
-var anyNumber = 5 // Xcode will warn you to convert the variable to constant. 
-let anyNumber = 5 // If you're not going to change the variable at all, use this line.
+var anyNumber = 10 // Xcode will warn you to convert the variable to constant. 
+let anyNumber = 10 // If you're not going to change the variable at all, use this line.
 print(anyNumber)
 ```
